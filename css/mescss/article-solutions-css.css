@@ -60,6 +60,24 @@ img{
     top: 490px;
     margin-left: 180px;
 }
+p.description{
+    font-family: Calibri, serif;
+    color: #051F2F;
+    font-style: italic;
+    text-align: right;
+    line-height: 20px;
+    margin-top: 5px;
+    margin-right: 0;
+}
+p.description-solution{
+    font-family: Calibri, serif;
+    color: #FFFFFF;
+    font-style: italic;
+    text-align: right;
+    line-height: 20px;
+    margin-top: 5px;
+    margin-right: 10px;
+}
 
 h3{
     font-family: Lobster, sans-serif;
@@ -81,7 +99,7 @@ footer{
     background: #051F2F;
     position: absolute;
     left: 0;
-    top: 5750px;
+    top: 5900px;
 }
 .textes{
     color: white;
