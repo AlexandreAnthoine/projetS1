@@ -1,0 +1,171 @@
+@import url('https://fonts.google.com/specimen/Monoton');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+html{
+    overflow-x: hidden;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+}
+
+.entete{
+    width: 375px;
+    height: 60px;
+    background: #051F2F;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1499;
+    margin: 0;
+}
+.entete>a>img{
+    position: fixed;
+    z-index: 1500;
+    top: -40px;
+    left: 5px;
+}
+
+body {
+    font-family: Calibri, serif;
+    color: #051F2F;
+    font-size: 16px;
+    font-weight: 300;
+    margin: 0 50px 0 50px ;
+    text-align: left;
+    background-color: #6CA1C0;
+    line-height: 22px;
+}
+h2{
+    font-family: Lobster, sans-serif;
+    text-decoration: underline;
+}
+.à-propos{
+    margin-top: 70px;
+}
+/*formulaire de contact*/
+form {
+    /* Uniquement centrer le formulaire sur la page */
+    margin: 2px;
+    width: 100%;
+}
+
+form div + div {
+    margin-top: 1em;
+}
+
+label {
+    display: inline-block;
+    font-family: Lobster, sans-serif;
+    text-decoration: underline;
+    width: 100px;
+    text-align: right;
+    margin-left: -14px;
+}
+
+input, textarea {
+    font: 1em sans-serif;
+    width: 100%;
+}
+
+textarea {
+    vertical-align: top;
+    height: 5em;
+}
+
+.button {
+    font-family: Lobster, sans-serif;
+    padding-left: 130px;
+    margin-left: .5em;
+}
+.button>button{
+    background-color: #DEA2C1;
+}
+
+/*caroussel*/
+.caroussel{
+    padding: 5px 0 20px 0;
+}
+ul.caroussel-items{
+    list-style: none;
+    padding: 10px;
+    display: flex;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+}
+li.caroussel-items{
+    flex: 1 0 220px; /*taille de l'image*/
+    margin-right: 30px;
+    scroll-snap-align: center;
+}
+::-webkit-scrollbar{
+    height: 4px;
+}
+::-webkit-scrollbar-thumb{
+    margin-top: 20px;
+    background-color: #DEA2C1;
+}
+::-webkit-scrollbar-track{
+    background-color: #F0F0F0;
+}
+
+footer{
+    font-family: Calibri, sans-serif;
+    color: #FFFFFF;
+    display: flex;
+    width: 375px;
+    height: 130px;
+    background: #051F2F;
+    position: absolute;
+    left: 0;
+    top: 1050px;
+}
+.textes{
+    color: white;
+}
+.explication-projet{
+    text-align: center;
+    margin: 5px;
+    line-height: 22px;
+}
+a.departement{
+    font-family: Calibri, sans-serif;
+    color: #FFFFFF;
+    text-decoration: underline white;
+}
+.contact, .étudiant{
+    text-align: left;
+    margin-left: 10px;
+}
+.contact>p>a{
+    font-family: Calibri, sans-serif;
+    color: #FFFFFF;
+    margin-top: -17px;
+    text-decoration: underline white;
+}
+.étudiant{
+    margin-top: -18px;
+}
+.logos{
+    color: black;
+}
+.logos>ul{
+    display: flex;
+    text-align: right;
+    position: absolute;
+    right: 0;
+    margin-right: 10px;
+    margin-top: -90px;
+}
+.logos>ul>li{
+    list-style: none;
+    margin: 10px 7px 5px 5px;
+    font-size: 20px;
+}
+.logos>ul>li.insta{
+    margin-top: 37px;
+}
+.logos>ul>li.youtube{
+    margin-top: 32px;
+}
+.logos>ul>li.mmi{
+    margin-top: 29px;
+}

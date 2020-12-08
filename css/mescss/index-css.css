@@ -1,0 +1,158 @@
+@import url('https://fonts.google.com/specimen/Monoton');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+html{
+    overflow-x: hidden;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: #051F2F;
+    font-family: Calibri, sans-serif;
+    color: white;
+    font-size:1.6rem;
+    text-align: center;
+}
+
+.entete{
+    width: 375px;
+    height: 60px;
+    background: #051F2F;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1499;
+    margin: 0;
+}
+.entete>a>img{
+    position: fixed;
+    z-index: 1500;
+    top: -40px;
+    left: 5px;
+}
+
+h1{
+    font-family: Monoton, sans-serif;
+    color: #DEA2C1;
+    font-size: 45px;
+    display: block;
+    text-align: center;
+    padding-top: 330px;
+}
+h2{
+    font-family: Monoton, sans-serif;
+    color: #DEA2C1;
+    font-size: 40px;
+    display: block;
+    text-align: center;
+}
+h1, h2{
+    line-height: 6rem;
+}
+h4>a{
+    font-family: Lobster, sans-serif;
+    color: white;
+    text-decoration: underline #FFFFFF;
+}
+
+.arrivée>img{
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+.logo-accueil{
+    margin-top: -150px;
+    margin-left: -30px;
+}
+.fleche{
+    display: block;
+    position: absolute;
+    top: 750px;
+    margin-left: 150px;
+}
+
+.tweets{
+    font-family: Lobster, sans-serif;
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+    padding-top: -50px;
+}
+.tweet-1, .tweet-2, .tweet-3{
+    width: 100%;
+    border-left: hidden;
+    border-right: hidden;
+    border-width: 2px;
+    border-color: #6CA1C0;
+    border-top-style: dotted;
+    border-bottom-style: dotted;
+}
+
+footer{
+    font-family: Calibri, sans-serif;
+    color: #FFFFFF;
+    display: flex;
+    width: 375px;
+    height: 150px;
+    background: #051F2F;
+    position: absolute;
+    left: 0;
+    top: 1475px;
+    border-top: 2px #6CA1C0;
+    border-top-style: double;
+    border-left: 2px;
+}
+.textes{
+    color: white;
+}
+.explication-projet{
+    text-align: center;
+    margin: 5px;
+    line-height: 22px;
+}
+a.departement{
+    font-family: Calibri, sans-serif;
+    color: #FFFFFF;
+    text-decoration: underline white;
+}
+.contact, .étudiant{
+    text-align: left;
+    margin-left: 10px;
+}
+.contact>p>a{
+    font-family: Calibri, sans-serif;
+    color: #FFFFFF;
+    margin-top: -17px;
+    text-decoration: underline white;
+}
+.étudiant{
+    margin-top: -18px;
+}
+.logos{
+    color: black;
+}
+.logos>ul{
+    display: flex;
+    text-align: right;
+    position: absolute;
+    right: 0;
+    margin-right: 10px;
+    margin-top: -90px;
+}
+.logos>ul>li{
+    list-style: none;
+    margin: 10px 7px 5px 5px;
+    font-size: 20px;
+}
+.logos>ul>li.insta{
+    margin-top: 37px;
+}
+.logos>ul>li.youtube{
+    margin-top: 32px;
+}
+.logos>ul>li.mmi{
+    margin-top: 29px;
+}
