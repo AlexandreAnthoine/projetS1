@@ -54,6 +54,12 @@ img{
     top: 395px;
     z-index: -1;
 }
+.arrow{
+    display: block;
+    position: absolute;
+    top: 490px;
+    margin-left: 180px;
+}
 
 h3{
     font-family: Lobster, sans-serif;

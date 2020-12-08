@@ -48,10 +48,13 @@ img{
     z-index: 100;
 }
 
-.partie-1>a, .partie-2>a, .partie-3>a, .img-accueil>a{
+p.description{
     font-family: Calibri, serif;
     color: #051F2F;
     font-style: italic;
+    text-align: right;
+    line-height: 20px;
+    margin-top: 5px;
 }
 .partie-3>p>img{
     margin-left: 12px;
@@ -68,7 +71,7 @@ img{
     display: block;
     position: absolute;
     top: 520px;
-    margin-left: 186px;
+    margin-left: 180px;
 }
 
 h3{

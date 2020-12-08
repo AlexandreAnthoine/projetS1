@@ -46,6 +46,12 @@ img{
     top: 430px;
     z-index: -1;
 }
+.arrow{
+    display: block;
+    position: absolute;
+    top: 520px;
+    margin-left: 180px;
+}
 
 .img-accueil{
     display: block;
