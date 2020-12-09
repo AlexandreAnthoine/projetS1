@@ -89,6 +89,16 @@ h3{
 div.chapo{
     font-style: italic;
 }
+.bouton-suivant>p>a{
+    font-family: Lobster, sans-serif;
+    color: #051F2F;
+    background-color: #DEA2C1;
+    width: 200px;
+    height: 50px;
+    padding: 10px;
+    border-radius: 10px;
+    margin-left: 160px;
+}
 
 footer{
     font-family: Calibri, sans-serif;
@@ -99,7 +109,7 @@ footer{
     background: #051F2F;
     position: absolute;
     left: 0;
-    top: 5900px;
+    top: 5880px;
 }
 .textes{
     color: white;
