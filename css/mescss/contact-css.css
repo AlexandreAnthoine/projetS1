@@ -1,6 +1,3 @@
-@import url('https://fonts.google.com/specimen/Monoton');
-@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
-
 html{
     overflow-x: hidden;
     overflow-y: scroll;
@@ -105,16 +102,6 @@ li.caroussel-items{
 ::-webkit-scrollbar-track{
     background-color: #F0F0F0;
 }
-.bouton-suivant>p>a{
-    font-family: Lobster, sans-serif;
-    color: #051F2F;
-    background-color: #DEA2C1;
-    width: 200px;
-    height: 50px;
-    padding: 10px;
-    border-radius: 10px;
-    margin-left: 160px;
-}
 
 footer{
     font-family: Calibri, sans-serif;
@@ -123,9 +110,10 @@ footer{
     width: 375px;
     height: 150px;
     background: #051F2F;
-    position: absolute;
+    position: relative;
     left: 0;
-    top: 1250px;
+    bottom: 0;
+    margin-left: -60px;
 }
 .textes{
     color: white;

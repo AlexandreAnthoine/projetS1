@@ -1,6 +1,3 @@
-@import url('https://fonts.google.com/specimen/Monoton');
-@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
-
 html{
     overflow-x: hidden;
     overflow-y: scroll;
@@ -141,9 +138,10 @@ footer{
     width: 375px;
     height: 150px;
     background: #051F2F;
-    position: absolute;
+    position: relative;
     left: 0;
-    top: 4980px;
+    bottom: 0;
+    margin-left: -50px;
 }
 .textes{
     color: white;
