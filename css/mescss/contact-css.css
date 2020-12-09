@@ -92,15 +92,16 @@ li.caroussel-items{
     margin: 20px;
     scroll-snap-align: center;
 }
-ul img{
+ul.caroussel-items img{
     padding-right: 20px;
 }
-ul.caroussel-items li{
+ul.caroussel-items li a{
     font-family: Calibri, sans-serif;
     color: #051F2F;
     text-align: left;
     font-weight: bold;
 }
+
 ::-webkit-scrollbar{
     height: 4px;
 }
