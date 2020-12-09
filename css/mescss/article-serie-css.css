@@ -110,6 +110,7 @@ li.caroussel-items{
     margin: 20px;
     scroll-snap-align: center;
 }
+
 ::-webkit-scrollbar{
     height: 4px;
 }
