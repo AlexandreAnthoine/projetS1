@@ -26,7 +26,7 @@ body {
     color: #051F2F;
     font-size: 16px;
     font-weight: 300;
-    margin: 0 50px 0 50px ;
+    margin: 0 30px 0 30px;
     text-align: left;
 }
 
@@ -53,9 +53,7 @@ p.description{
     line-height: 20px;
     margin-top: 5px;
 }
-.partie-3>p>img{
-    margin-left: 12px;
-}
+
 .forme{
     display: block;
     position: absolute;
@@ -129,7 +127,7 @@ li.caroussel-items{
     height: 50px;
     padding: 10px;
     border-radius: 10px;
-    margin-left: 160px;
+    align-items: right;
 }
 
 footer{
@@ -142,7 +140,7 @@ footer{
     position: relative;
     left: 0;
     bottom: 0;
-    margin-left: -50px;
+    margin-left: -30px;
 }
 .textes{
     color: white;

@@ -13,13 +13,13 @@ body{
 }
 
 .entete{
+    position: fixed;
+    z-index: 1499;
     width: 375px;
     height: 60px;
     background: #051F2F;
-    position: fixed;
     top: 0;
     left: 0;
-    z-index: 1499;
     margin: 0;
 }
 .entete>a>img{
@@ -32,17 +32,19 @@ body{
 h1{
     font-family: Monoton, sans-serif;
     color: #DEA2C1;
-    font-size: 45px;
+    font-size: 4.5rem;
     display: block;
     text-align: center;
     padding-top: 330px;
+    word-spacing: 10px;
 }
 h2{
     font-family: Monoton, sans-serif;
     color: #DEA2C1;
-    font-size: 40px;
+    font-size: 38px;
     display: block;
     text-align: center;
+    word-spacing: 1rem;
 }
 h1, h2{
     line-height: 6rem;
@@ -51,6 +53,7 @@ h3>a{
     font-family: Lobster, sans-serif;
     color: white;
     text-decoration: underline #FFFFFF;
+    font-weight: normal;
 }
 
 .arrivée>img{
@@ -86,9 +89,6 @@ h3>a{
     border-color: #6CA1C0;
     border-top-style: dotted;
     border-bottom-style: dotted;
-}
-.tweets p{
-
 }
 
 footer{
