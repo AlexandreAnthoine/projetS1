@@ -89,6 +89,9 @@ div.chapo{
 .intro-article{
     text-decoration: underline #051F2F;
 }
+.article-scientifique{
+    font-style: italic;
+    }
 
 .bouton-suivant>p>a{
     font-family: Lobster, sans-serif;
@@ -111,7 +114,7 @@ footer{
     position: relative;
     left: 0;
     bottom: 0;
-    margin-left: -50px;
+    margin-left: -30px;
 }
 .textes{
     color: white;
