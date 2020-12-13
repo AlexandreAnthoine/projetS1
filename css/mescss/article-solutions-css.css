@@ -94,7 +94,16 @@ div.chapo{
     height: 50px;
     padding: 10px;
     border-radius: 10px;
-    margin-left: 160px;
+    margin-left: 180px;
+}
+.partie-4>p>a{
+    font-family: Calibri, serif;
+    color: #051F2F;
+    font-weight: bold;
+    text-decoration: underline;
+}
+strong{
+    font-weight: bold;
 }
 
 footer{

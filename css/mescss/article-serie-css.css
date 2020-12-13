@@ -119,6 +119,10 @@ li.caroussel-items{
 ::-webkit-scrollbar-track{
     background-color: #F0F0F0;
 }
+
+strong{
+    font-weight: bold;
+}
 .bouton-suivant>p>a{
     font-family: Lobster, sans-serif;
     color: #051F2F;
@@ -127,7 +131,7 @@ li.caroussel-items{
     height: 50px;
     padding: 10px;
     border-radius: 10px;
-    align-items: right;
+    margin-left: 180px;
 }
 
 footer{
