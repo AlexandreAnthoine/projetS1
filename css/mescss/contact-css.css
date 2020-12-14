@@ -17,8 +17,8 @@ html{
 .entete>a>img{
     position: fixed;
     z-index: 1500;
-    top: -40px;
-    left: 5px;
+    top: -5px;
+    left: 10px;
 }
 
 body {

@@ -106,8 +106,9 @@ a{
     border-color: #6CA1C0;
     border-top-style: dotted;
     border-bottom-style: dotted;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    word-spacing: 10px;
 }
 .menu>ul>li:first-child{
     border-top: hidden;
