@@ -28,14 +28,13 @@ body{
     top: 0;
     left: 0;
 }
-.entete>p{
+.entete>a>p{
     font-family: Lobster, sans-serif;
     color: #FFFFFF;
     font-size: 2.4rem;
     margin-top: 12px;
     padding-left: 70px;
     text-align: left;
-    z-index: 1500;
 }
 
 h1{
@@ -75,13 +74,14 @@ h3>a{
 }
 .logo-accueil{
     margin-top: -40px;
-    margin-left: -30px;
+    margin-left: auto;
+    margin-right: auto;
 }
 .fleche{
     display: block;
-    position: absolute;
-    top: 750px;
-    margin-left: 150px;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .tweets{
